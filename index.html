@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- ------------ customs css------ -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+
+    <div class="conteiner">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="owl-carousel">
+            <div class="div"> Your Content </div>
+            <div class="div"> Your Content </div>
+            <div class="div"> Your Content </div>
+            <div class="div"> Your Content </div>
+            <div class="div"> Your Content </div>
+            <div class="div"> Your Content </div>
+            <div class="div"> Your Content </div>
+        </div>
+        </div>
+      </div>
+    </div>
+   
+
+    <!-- jQuery links -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
+
+        });
+    </script>
+    
+
+  </body>
+</html>
